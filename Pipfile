@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+gunicorn = "*"
+pydantic = "*"
+pydantic-settings = "*"
+loguru = "*"
+black = "*"
+passlib = "*"
+bcrypt = "*"
+python-jose = "*"
+asyncpg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
